@@ -6,6 +6,7 @@ data mining techniques, particularly to Low- to Middle Income Countries (LMICs).
 
 Quick summary of the files used in this research:
 
+* **input_layers_source.xlxs**: Includes all the input features used and their respective open source platforms. 
 * **Base_Layers.zip**: Contains the base layers used to prepare and process all the input features for the kmeans model. 
 * **PCA_input.zip**: Includes only the final input files to conduct the PCA assessment of the hand-crafted features - Grey-Level Cocurrence Matrix (GLCM) and Landscape Metrics (LSM) of the model in order to select the optimal moving window size that will be included in the k-means model. 
 * **Kmeans_model_input.zip**: Contains the final processed input extracted in each grid centroid and integrated into a single csv file (Input_variables.csv) as the k-means model input.
