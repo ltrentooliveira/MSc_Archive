@@ -18,3 +18,5 @@ The scripts contain data processing and machine learning modelling steps. Quick 
 * FeatureImp_tool: code runs iteratively with k-means and generate a by-product of the important of the features for each resulting cluster
 * kmeans_model: training and simulation of k-means model
 * LSM: this is not a script, but it is the file for the calculation of the Landscape Metrics in Fragstats.
+
+All detailed information is provided in the DMP_Metadata.xlxs file.
