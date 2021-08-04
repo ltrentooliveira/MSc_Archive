@@ -10,9 +10,9 @@ The files contain:
 * Data_products.zip: Contains the final output among the seven model  experiment conducted to test model robustness, optimise perfomance with features selection techniques.
 
 The scripts contain data processing and machine learning modelling steps. Quick summary of the files in the order they were applied in the research:
-* GLCM: calculation of texture metrics using R Studio 
-* LSM: this is not a script, but it is the file for the calculation of the Landscape Metrics in Fragstats.
-* PCA_processing: calculation of Principal Component Analysis to select the optimal moving window to extract hand-crafted features (GLCM and LSM)
-* EDA: analysis of final data input and processing before applying the k-means
-* FeatureImp_tool: code runs iteratively with k-means and generate a by-product of the important of the features for each resulting cluster
-* kmeans_model: training and simulation of k-means model
+* GLCM.R: calculation of texture metrics using R Studio 
+* LSM.fca: this is not a script, but it is the file for the calculation of the Landscape Metrics in Fragstats.
+* PCA_processing.ipynb: calculation of Principal Component Analysis to select the optimal moving window to extract hand-crafted features (GLCM and LSM)
+* EDA.R: analysis of final data input and processing before applying the k-means
+* FeatureImp_tool.R: code runs iteratively with k-means and generate a by-product of the important of the features for each resulting cluster
+* kmeans_model.ipynb: training and simulation of k-means model
