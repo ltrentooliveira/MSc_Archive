@@ -6,7 +6,7 @@ data mining techniques, particularly to Low- to Middle Income Countries (LMICs).
 The folders contain:
 1. Base_Layers: Contains the base layers used to prepare and process all the input features for the kmeans model. 
 2. PCA_input: Includes only the final input files to conduct the PCA assessment of the hand-crafted features - Grey-Level Cocurrence Matrix (GLCM) and Landscape Metrics (LSM) of the model in order to select the optimal moving window size that will be included in the k-means model. 
-3. Model_input: Contains the final processed input extracted in each grid centroid and integrated into a single csv file (Input_variables.csv) as the k-means model input.
+3. Kmeans_model_input: Contains the final processed input extracted in each grid centroid and integrated into a single csv file (Input_variables.csv) as the k-means model input.
 4. Data_products: Contains the final output among the seven model  experiment conducted to test model robustness, optimise perfomance with features selection techniques.
 
 The scripts contain data processing and machine learning modelling steps. Quick summary of the files in the order they were applied in the research:
